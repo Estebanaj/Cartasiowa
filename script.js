@@ -298,7 +298,7 @@ botonD.addEventListener("click", function () {
 
     contador++;
    //si se quiere cambiar la cantidad de clicks para la prueba cambialo aqui
-    if (contador >= 5) {
+    if (contador >= 30) {
         // Deshabilita los botones A, B, C, D y sus variantes
         botonA.style.display = "none";
         botonB.style.display = "none";
