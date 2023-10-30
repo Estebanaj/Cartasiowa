@@ -12,6 +12,7 @@ var botonBb = document.getElementById("botonBb");
 var botonCc = document.getElementById("botonCc");
 var botonDd = document.getElementById("botonDd");
 var botonT = document.getElementById("botonT");
+var Botoninicio= document.getElementById("Botoninicio");
 var visible = false;
 var tabla = document.getElementById("tabla");
 const dinero = document.getElementById("dinero");
@@ -297,7 +298,7 @@ botonD.addEventListener("click", function () {
 
     contador++;
    //si se quiere cambiar la cantidad de clicks para la prueba cambialo aqui
-    if (contador >= 30) {
+    if (contador >= 5) {
         // Deshabilita los botones A, B, C, D y sus variantes
         botonA.style.display = "none";
         botonB.style.display = "none";
@@ -382,5 +383,10 @@ botonT.addEventListener("click", function () {
     Correctobueno.style.display = "none";
     Incorrectobueno.style.display = "none";
     Incorrectobajo.style.display = "none";
-})
+});
+Botoninicio.addEventListener("click", function () {
+    document.querySelector("#inicio").style.display = "none";
+    document.querySelector("#Rectangulo").style.display = "block";
+});
+
 
