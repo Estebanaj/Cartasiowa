@@ -73,6 +73,17 @@ body {
   width: 700px;
   height: 600px;
   background-color: black;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#inicio{
+  width: 700px;
+  height: 600px;
+  background-color: black;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -186,4 +197,111 @@ body {
 #tabla td {
   width: 40%;
   border: 1px solid #000000;
+}
+#Introduccion{
+  position: absolute;
+  color: rgb(5, 224, 60);
+  font-size: 40px;
+  top: 30px;
+  left: 34%;
+}
+
+
+
+#Reglas{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 25px;
+  top: 20%;
+  left: 1%;
+}
+#Reglas1{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 25px;
+  top: 34%;
+  left: 1%;
+}
+#Reglas2{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 25px;
+  top: 50%;
+  left: 1%;
+}
+#Reglas3{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 25px;
+  top: 60%;
+  left: 1%;
+}
+#Reglas4{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 25px;
+  top: 70%;
+  left: 1%;
+}
+#Reglas5{
+  position: absolute;
+  color: rgb(215, 253, 0);
+  font-size: 30px;
+  top: 85%;
+  left: 1%;
+}
+.btn-intro{
+  position: relative;
+  display: inline-block;
+  top: 83.6%;
+  left: 65%;
+  padding: 10px 30px;
+  color: rgb(5, 224, 60);
+  letter-spacing: 0px;
+  font-size: 30px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 10px;
+  user-select: none;
+}
+.btn-intro:hover {
+  background: rgb(239, 243, 3);
+  box-shadow: 0 0 10px rgb(211, 226, 5), 0 0 40px rgb(212, 235, 4), 0 0 80px rgb(248, 244, 2);
+  transition-delay: 0.1s;
+  user-select: none;
+}
+.btn-tabla{
+  position: absolute;
+  display: none;
+  top: 0%;
+  left: 78%;
+  padding: 10px 30px;
+  color: rgb(193, 23, 205);
+  letter-spacing: 0px;
+  font-size: 40px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 10px;
+  user-select: none;
+  max-width: 100px;
+  max-height: 40px;
+}
+.btn-tabla:hover{
+  background: violet;
+  box-shadow: 0 0 10px violet, 0 0 40px violet, 0 0 80px violet;
+  transition-delay: 0.1s;
+  user-select: none;
+}
+#RecuadroDinero{
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 220px;
+  height: 50px;
+  background-color: violet;
+  color: blueviolet;
 }
