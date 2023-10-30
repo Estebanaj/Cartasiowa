@@ -9,7 +9,36 @@
 </head>
 
 <body>
+   <div id="inicio">
+    <var id="Introduccion">Instrucciones</var>
+    <var id="Reglas">En esta tarea, juegas un juego de "apuestas". Debe elegir uno de los 4 botones (A, B, C o D) con el mouse.</var>
+    <var id="Reglas1">Cada vez podrás ganar algo de dinero, pero en ocasiones también tendrás que pagar una comisión al banco. Después de cada prueba, deberás cobrar tu dinero, lo que ajustará tu bote de dinero.</var>
+    <var id="Reglas2">Comienzas con un préstamo de $2000.</var>
+    <var id="Reglas3">Hay 30 pruebas (que duran aproximadamente 5 minutos).</var>
+    <var id="Reglas4">Continúe hasta que salga un boton que diga "tabla" y vea cuánto puede ganar además del préstamo de $2000.</var>
+    <var id="Reglas5">Presione el boton para comenzar</var>
+     
+    <a class="btn-intro" id="Botoninicio">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      comenzar
+    </a>
+
+   </div>
+
   <div id="Rectangulo">
+    <a class="btn-tabla" id="botonT">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      Tabla
+    </a>
+     
+    <div id="RecuadroDinero"></div>
+
     <var id="tu">Dinero:</var>
     <var id="dinero"> 2000 </var>
 
@@ -35,6 +64,8 @@
 
     <div id="cuadrotexto">
       <var id="texto">Puedes usar cualquier boton pero cuidado con la apuesta</var>
+
+      
     </div>
 
     <div class="container">
@@ -97,15 +128,7 @@
         <span id="span4"></span>
         D
       </a>
-      <a class="Blackbtn-neon" id="botonT">
-        <span id="span1"></span>
-        <span id="span2"></span>
-        <span id="span3"></span>
-        <span id="span4"></span>
-        Tabla
-      </a>
     </div>
-
   </div>
   <table id="tabla">
     <tr>
@@ -124,7 +147,6 @@
     </tr>
   </table>
   
-
   <script src="script.js"></script>
 </body>
 
