@@ -181,7 +181,7 @@ botonC.addEventListener("click", function () {
     var dineroActualCell = document.createElement("td");
     var Estdo = document.createElement("td");
 
-    var randomNumber = Math.floor(Math.random() * 3);
+    var randomNumber = Math.floor(Math.random() * 2);
     if (randomNumber == 1 ) {
         Correctobueno.style.display = "block";
         visible = true;
@@ -255,7 +255,7 @@ botonD.addEventListener("click", function () {
     var dineroActualCell = document.createElement("td");
     var Estdo = document.createElement("td");
 
-    var randomNumber = Math.floor(Math.random() * 3);
+    var randomNumber = Math.floor(Math.random() * 2);
     if (randomNumber == 1 ) {
         Correctobueno.style.display = "block";
         visible = true;
