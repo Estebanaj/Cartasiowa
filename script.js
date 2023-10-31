@@ -45,8 +45,8 @@ botonA.addEventListener("click", function () {
     } else {
         Incorrectobajo.style.display = "block";
         visible = true;
-        total = total - 50;
         dineroAnteriorCell.innerHTML = total;
+        total = total - 50;
         dinero.innerHTML = total;
         Estdo.innerHTML = "Perdedor";
     }
@@ -120,8 +120,8 @@ botonB.addEventListener("click", function () {
     } else {
         Incorrectobajo.style.display = "block";
         visible = true;
-        total = total - 50;
         dineroAnteriorCell.innerHTML = total;
+        total = total - 50;
         dinero.innerHTML = total;
         Estdo.innerHTML = "Perdedor";
     }
@@ -193,8 +193,8 @@ botonC.addEventListener("click", function () {
     } else {
         Incorrectobueno.style.display = "block";
         visible = true;
-        total = total - 150;
         dineroAnteriorCell.innerHTML = total;
+        total = total - 150;
         dinero.innerHTML = total;
         Estdo.innerHTML = "Perdedor";
     }
@@ -267,8 +267,8 @@ botonD.addEventListener("click", function () {
     } else {
         Incorrectobueno.style.display = "block";
         visible = true;
-        total = total - 150;
         dineroAnteriorCell.innerHTML = total;
+        total = total - 150;
         dinero.innerHTML = total;
         Estdo.innerHTML = "Perdedor";
     }
